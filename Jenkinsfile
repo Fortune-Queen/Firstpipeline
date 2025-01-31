@@ -14,7 +14,7 @@ pipeline {
                 echo 'Executing code on the host machine outside the Jenkins container...'
                 // Running a shell command on the host machine (outside Docker container)
                 sh '''
-                    echo 'Running Stage-2...'
+                    echo 'Testing automatic-Trigger...'
                 '''
             }
         }
